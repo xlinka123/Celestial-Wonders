@@ -6,21 +6,17 @@
     <title>Celestial Wonders</title>
     <link rel="stylesheet" href="indexstyle.css">
     <style>
-        .image-grid {
-            display: grid;
-            grid-template-columns: repeat(2, 1fr);
-            gap: 20px;
-            justify-items: center;
+        .image-container {
+            text-align: center;
             margin: 20px 0;
         }
-        .image-grid img {
-            max-width: 100%;
+        .image-container img {
+            max-width: 80%;
             height: auto;
             border-radius: 10px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
         }
         .image-caption {
-            text-align: center;
             font-weight: bold;
             margin-top: 10px;
         }
@@ -59,44 +55,39 @@
         </section>
 
         <section>
-            <h3>Celestial Images</h3>
-            <div class="image-grid">
-                <div>
-                    <img src="exoplanet.jpg" alt="Exoplanet">
-                    <div class="image-caption">Exoplanet</div>
-                </div>
-                <div>
-                    <img src="Blackhole.png" alt="Black Hole">
-                    <div class="image-caption">Black Hole</div>
-                </div>
-                <div>
-                    <img src="star.jpg" alt="Star">
-                    <div class="image-caption">Star</div>
-                </div>
-                <div>
-                    <img src="galaxy.jpg" alt="Galaxy">
-                    <div class="image-caption">Galaxy</div>
-                </div>
+            <h3>Exoplanet</h3>
+            <div class="image-container">
+                <img src="exoplanet.jpg" alt="Exoplanet">
+                <div class="image-caption">Exoplanet</div>
             </div>
-        </section>
-
-        <section>
-            <h3>Exoplanets</h3>
             <p>Exoplanets are planets located outside our solar system. They orbit stars other than the Sun and can vary widely in size and composition. One notable example is <a href="k218b.html">K218b</a>, an exoplanet that has garnered significant interest due to its potential for habitability.</p>
         </section>
 
         <section>
             <h3>Black Holes</h3>
+            <div class="image-container">
+                <img src="Blackhole.png" alt="Black Hole">
+                <div class="image-caption">Black Hole</div>
+            </div>
             <p>Black holes are regions in space where the gravitational pull is so strong that nothing, not even light, can escape from them. They are formed from the remnants of massive stars after they collapse. For more information, check out our page on <a href="Ton618.html">Ton 618</a>, one of the largest known black holes.</p>
         </section>
 
         <section>
             <h3>Stars</h3>
+            <div class="image-container">
+                <img src="star.jpg" alt="Star">
+                <div class="image-caption">Star</div>
+            </div>
             <p>Stars are massive celestial bodies made of gas that emit light and heat from nuclear fusion reactions in their cores. They come in various sizes, colors, and stages of life. Explore the fascinating characteristics of stars like <a href="siriusb.html">Sirius B</a>, a well-known binary star system.</p>
         </section>
 
         <section>
             <h3>Galaxies</h3>
+            <div class="image-container">
+                <img src="galaxy.jpg" alt="Galaxy">
+                <div class="image-caption">
+                Galaxy</div>
+            </div>
             <p>Galaxies are vast systems that contain millions to trillions of stars, along with gas, dust, and dark matter. They come in various shapes and sizes, including spiral, elliptical, and irregular galaxies. Learn more about the massive galaxy <a href="IC1101.html">IC 1101</a>, one of the largest known galaxies in the universe.</p>
         </section>
     </main>
@@ -105,4 +96,3 @@
     </footer>
 </body>
 </html>
-

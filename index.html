@@ -5,6 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Celestial Wonders</title>
     <link rel="stylesheet" href="indexstyle.css">
+    <style>
+        .image-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+            justify-items: center;
+            margin: 20px 0;
+        }
+        .image-grid img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+        .image-caption {
+            text-align: center;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -28,6 +48,7 @@
             <h2>Welcome to Celestial Wonders</h2>
             <p>Explore the universe's most intriguing celestial discoveries. From distant galaxies to fascinating phenomena, we bring you the latest and most exciting news from the cosmos.</p>
         </section>
+        
         <section>
             <h3>Featured Discoveries</h3>
             <ul>
@@ -36,7 +57,29 @@
                 <li><strong>Gravitational Waves:</strong> The detection of ripples in spacetime from colliding black holes.</li>
             </ul>
         </section>
-        
+
+        <section>
+            <h3>Celestial Images</h3>
+            <div class="image-grid">
+                <div>
+                    <img src="exoplanet.jpg" alt="Exoplanet">
+                    <div class="image-caption">Exoplanet</div>
+                </div>
+                <div>
+                    <img src="Blackhole.png" alt="Black Hole">
+                    <div class="image-caption">Black Hole</div>
+                </div>
+                <div>
+                    <img src="star.jpg" alt="Star">
+                    <div class="image-caption">Star</div>
+                </div>
+                <div>
+                    <img src="galaxy.jpg" alt="Galaxy">
+                    <div class="image-caption">Galaxy</div>
+                </div>
+            </div>
+        </section>
+
         <section>
             <h3>Exoplanets</h3>
             <p>Exoplanets are planets located outside our solar system. They orbit stars other than the Sun and can vary widely in size and composition. One notable example is <a href="k218b.html">K218b</a>, an exoplanet that has garnered significant interest due to its potential for habitability.</p>
@@ -62,3 +105,4 @@
     </footer>
 </body>
 </html>
+

@@ -2,7 +2,7 @@ body {
     background-image: url('spaceblue.jpg');
     background-size: cover; 
     background-position: center;
-    background-repeat: no-repeat; 
+    background-repeat: repeat; 
     color: black; 
 }
 
